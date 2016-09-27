@@ -16724,7 +16724,7 @@ var vm_data = {
     'treeProperties': {}
 };
 
-vm_data.sourceCode = '- Programming\nsomething I love\n  - Web Development\n    - Front-end development\n(stuff for the browsers)\n      - Languages\n        - HTML\n        - CSS\n        - JavaScript\n      - Tools\n        - Bootstrap\n    - Back-end development\n(stuff for the server)\n      - Languages\n        - PHP\n        - Python\n      - Frameworks\n        - Django\n        - Symphony\n  - Desktop development,\nwhich is something pretty hard that\nmost web developers can\'t do\nahsdlkjhaslkdhjaslkdjhasd\naslñdjhalskdjhalskdjhaskldj\n    - Something\n    - Something\n  - Mobile development\n    - Android\n    - iOS\n    - Some other stuff\nno one cares about\n    - LOLWAT\n';
+vm_data.sourceCode = '- 我喜欢编程\n  - Web开发\n    - 前端开发\n(面向浏览器)\n      - 语言\n        - HTML\n        - CSS\n        - JavaScript\n      - Tools\n        - Bootstrap\n    - 后端开发\n(面向服务器)\n      - 语言\n        - PHP\n        - Python\n      - Frameworks\n        - Django\n        - Symphony\n  - 桌面开发,\nwhich is something pretty hard that\nmost web developers can\'t do\nahsdlkjhaslkdhjaslkdjhasd\naslñdjhalskdjhalskdjhaskldj\n    - Something\n    - Something\n  -移动开发\n    - Android\n    - iOS\n    - Some other stuff\nno one cares about\n    - LOLWAT\n';
 
 //vm_data.sourceCode =
 //    `- Prog
@@ -17252,13 +17252,13 @@ exports.default = TreeNode;
 },{"./TreeProperties.js":199,"./Util.js":200}],199:[function(require,module,exports){
 "use strict";
 
-module.exports.fontSize = { label: "Font size", model: "fontSize", min: 5, max: 50, val: 13 };
-module.exports.connectorWidth = { label: 'Connector width', model: "connectorWidth", min: 20, max: 100, val: 65 };
-module.exports.connectorSteepness = { label: 'Connector steepness', min: 0.1, max: 1, step: 0.01, val: 0.65 };
-module.exports.connectorLineWidth = { label: 'Line width', min: 0.5, max: 10, step: 0.25, val: 4.5 };
-module.exports.nodeMarginTop = { label: ' Top margin', min: 0, max: 50, val: 5 };
-module.exports.nodeMarginBottom = { label: ' Bottom margin', min: 0, max: 50, val: 5 };
-module.exports.useGrayscale = { label: 'Use grayscale', type: 'boolean', val: 0 };
+module.exports.fontSize = { label: "字体大小", model: "fontSize", min: 5, max: 50, val: 13 };
+module.exports.connectorWidth = { label: '连接线宽度', model: "connectorWidth", min: 20, max: 100, val: 65 };
+module.exports.connectorSteepness = { label: '陡度', min: 0.1, max: 1, step: 0.01, val: 0.65 };
+module.exports.connectorLineWidth = { label: '线宽', min: 0.5, max: 10, step: 0.25, val: 4.5 };
+module.exports.nodeMarginTop = { label: '上边距', min: 0, max: 50, val: 5 };
+module.exports.nodeMarginBottom = { label: ' 下边距', min: 0, max: 50, val: 5 };
+module.exports.useGrayscale = { label: '用灰度', type: 'boolean', val: 0 };
 
 },{}],200:[function(require,module,exports){
 'use strict';
